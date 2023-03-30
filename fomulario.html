@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+<html>
+    <head> 
+        <title>Mi página web</title>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="PaginaFotos.html">Fotos</a></li>
+                <li><a class="active" href="fomulario.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+            <p id="espacio"></p>
+        <header id="titulo">
+            <h1>Contáctenos</h1>
+            <p id="header">Rellene el siguiente formulario para poder ponerse en contacto con el autor de esta página</p>
+        </header>
+
+        <section id="form">
+            <form>
+                <fieldset>
+                <legend>Formulario</legend>
+                    <table>
+                        <tr>
+                            <th>Correo electrónico:</th>
+                            <td colspan="2"><input type="email" required></td>
+                        </tr>
+                        <tr>
+                            <th>Nombre:</th>
+                            <td><input type="text"></td>
+                            <th>Apellidos:</th>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <th>Motivo:</th>
+                            <td>
+                                <select name="" id="">
+                                    <option value="">Curiosidad</option>
+                                    <option value="">Problema con la página</option>
+                                    <option value="">Otro</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Desarrolle su motivo:</th>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><textarea name="" id="citas" cols="30" rows="10"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" id="boton">
+                                <input type="submit" value="Enviar" id="boton">
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </section>
+        
+        <footer>
+            <p class="empresa">® MiPáginaWeb</p>
+            <p class="autor">Raquel Rodriguez Díaz</p>
+        </footer>
+    </body>
+</html>
